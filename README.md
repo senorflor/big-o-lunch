@@ -32,11 +32,11 @@ sort of group:
 
 ### When?
 
-0. Right now: there's an easy intro problem up: see
+1. Right now: there's an easy intro problem up: see
    [problem 0](00_minfree/).
-1. \[Redacted Groupon-specific stuff\]
-2. See http://samizdat.mines.edu/howto/HowToBeAProgrammer.html#id2854560
-3. Take 2) with n grains of salt, where n is an integer determined by
+2. \[Redacted Groupon-specific stuff\]
+3. See http://samizdat.mines.edu/howto/HowToBeAProgrammer.html#id2854560
+4. Take 3) with n grains of salt, where n is an integer determined by
    your employer/manager.
    
 ### How?
