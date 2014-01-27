@@ -1,0 +1,68 @@
+## Mega-gitignore, pilfered from https://github.com/github/gitignore/,
+## and limited to file extensions that don't break other langs, I hope.
+
+# Agda
+*.agdai
+
+# C/C++/Go
+*.slo
+*.elf
+*.ko
+*.lo
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# CL
+*.FASL
+*.fasl
+
+# Coq
+*.vo
+*.glob
+*.v.d
+
+# Erlang
+*.beam
+*.plt
+
+# Haskell
+*.hi
+*.chi
+*.chs.h
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Python
+*.py[cod]
+
+# Ruby
+*.gem
+*.rbc
+
+# Emacs/vim/OSX/Windows/etc.
+*~
+*.elc
+*.bak
+*.swp
+*.cab
+*.msi
+*.msm
+*.msp
+Desktop.ini
+.DS_Store
+.Spotlight-V100
+.Trashes
