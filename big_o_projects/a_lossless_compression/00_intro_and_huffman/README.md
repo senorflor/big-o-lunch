@@ -23,7 +23,7 @@ means that if `u` can describe all strings in some alphabet, `k` gives
 the length of a shortest desciption in `u` of the string `s` such that
 `s` could be completely reconstructed from that description. `k` is in
 general incomputable \(see
-(wikipedia)[http://en.wikipedia.org/wiki/Kolmogorov_complexity#Incomputability_of_Kolmogorov_complexity]\).
+[wikipedia](http://en.wikipedia.org/wiki/Kolmogorov_complexity#Incomputability_of_Kolmogorov_complexity)\).
 
 #### What does that mean?
 
@@ -58,12 +58,12 @@ for memory (smaller format). This is obviously useful in terms of
 reduced network bandwidth and smaller persistent file storage, but
 work has also been done showing some usefulness of data compression on
 cache lines in running programs
-[pdf](http://research.cs.wisc.edu/multifacet/papers/isca04_adaptive_compression.pdf).
+\([here's a pdf](http://research.cs.wisc.edu/multifacet/papers/isca04_adaptive_compression.pdf)\).
 Furthermore, some algorithms can operate with fewer operations over
 compressed files (imagine `cat`ing 10MB of `a`s through `tr a b` as
 opposed to replacing one in the representation `a{10000000}`).
 
-5 data files are provided in (./data)[data/] to play around with; they
+5 data files are provided in [./data](data/) to play around with; they
 are all 10,000,000 bytes to start, so try compressing and
 uncompressing them to compare compression ratios and runtime for
 various compression utilities.
