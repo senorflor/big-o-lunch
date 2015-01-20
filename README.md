@@ -1,20 +1,20 @@
 Big O Lunch
 ===========
 
-The problems we do for Groupon Engineering Chicago's lunchtime
-programming problems group, pushed out Ω(log n).
-
-If you enjoy solving hard and interesting problems, and like working
-with smart, fast, critically-thinking-yet-simpatico people, send in a
-great solution and hit me up.
+Chicago lunchtime programming problems group, public archive edition.
+Hopefully someone finds some fun problems in here they've never seen
+before!
 
 ### What?
 
-At Groupon Chicago, we pose a moderately challenging algorithmic/data
-structure-y problem every week or two, discussing approaches and
-comparing solutions at a comfortable pace (i.e. no rushing through
-things to get to the next problem). On the World Wide Web (WWW), feel
-free to peruse, criticize, solve, and submit at your leisure.
+We will pose a moderately challenging algorithmic/data structure-y
+problem each week (something with a fast feedback mechanism, e.g. the
+competition framework on http://hackerrank.com, or the test
+files/checkers at http://code.google.com/codejam/) discussing
+approaches and comparing solutions during the first 30 minutes. These
+problems are in [/little_o_projects/](little_o_projects/) We will
+spend the rest of the time each week on a longer topic, e.g.
+[/big_o_projects/a_lossless_compression](big_o_projects/a_lossless_compression/).
 
 Things we can look at that are not often enough explored in this
 sort of group:
@@ -30,44 +30,38 @@ sort of group:
 3. Because a well-defined and posed programming problem can smell an
    awful lot like well-compartmentalized and specified business logic.
 
-### When?
+### When? Where?
 
-1. Right now: there's an easy intro problem up: see
-   [problem 0](00_minfreek/).
-2. \[Redacted Groupon-specific stuff\]
-3. See http://samizdat.mines.edu/howto/HowToBeAProgrammer.html#id2854560
-4. Take 3) with n grains of salt, where n is an integer determined by
-   your employer/manager.
-   
+Thursdays, lunchtime in Chicago. Anytime on the World Wide Web (WWW). 
+Open to live meetings in other locations too, if someone wants to run point.
+
 ### How?
 
-Just fork it and submit a pull request based on the `solutions`
-branch, with your work in the following format:
+Just fork it and submit a pull request with your work in the following
+format:
 
-`/<problem-directory>/<your-@-name>/<your-work>`
+`/<big-or-little-dir>/<problem-directory>/[<subproblem>/]<your-@-name>/[<a-language>/]<your-work>`
 
 e.g.
 
-`/00_minfreek/senorflor/the_answer.rb`
+`/little_o_projects/00_minfree/senorflor/the_answer.rb`
 
 or
 
 ```
-/00_minfreek/senorflor/java/...
-/00_minfreek/senorflor/clj/...
-/00_minfreek/senorflor/cobol/...
+/little_o_projects/01_countdown/senorflor/java/...
+/little_o_projects/01_countdown/senorflor/clj/...
+/big_o_projects/a_lossless_compression/00_intro_and_huffman/senorflor/cobol/...
 ```
 
 Tests, harnesses, benchmarking results, multiple languages/solutions,
-and problem variations are all welcome, as your recreational time
-allows.
+and problem variations are all welcome, as time allows.
 
-Again, pull requests should be based on/submitted to the `solutions`
-branch; `master` is for people who want a clean run at things.
-Everyone who's interested should watch the repo--feel free to
-fetch, run, comment and bang on each other's solutions, documented for
-all to see and learn from on the PR. No squashing/force pushing once
-submissions go to PR, please--I think it would be more educational to
-fellow implementers/readers for the history of review and revision to
-remain unaltered. I will merge PRs once they have a goodly amount of
-comments and revisions, for the benefit of future historians.
+Pull requests will be left open for each problem until the day of the
+meeting. Everyone should feel free to fetch, run, comment and bang on
+each other's branches, documented for all to see and learn from on
+the PR. No squashing/force pushing once submissions go to PR,
+please--I think it would be more educational to fellow
+implementers/readers for the history of review and revision to remain
+unaltered. I will merge all related PRs once we're done with each
+problem, for the benefit of future historians.
